@@ -13,67 +13,86 @@
 <header>
   <img id="logo" alt="logo" src="images/housecomm-logo-white.svg">
 </header><br>
-
+<div id="mainNav">
 <div id="temp">
   <img src="images/sun.svg" id="hot" alt="hot">
     <p id="tempNumber">20 &#8451;</p>
   <img src="images/snowflake.svg" alt="cold" id="cold">
 </div>
 
-<h1 id="time">10:30</h1>
 
-<nav id="mainNav">
+<h1 id="time">10:30</h1>
+<nav>
   <ul>
-    <li><a href="#"><img src="images/book-reader-solid.svg" alt="book"></a></li>
-    <li><a href="#"><img src="images/users-solid.svg" alt="members"></a></li>
+    <li><a href="#"><img src="images/about-us.svg" alt="book"></a></li>
+    <li><a href="#"><img src="images/unlock-alt-solid.svg" alt="members"></a></li>
     <li><a href="#"><img src="images/no-text.svg" alt="home"></a></li>
     <li><a href="#"><img src="images/home-solid.svg" alt="home2"></a></li>
-    <li><a href="#"><img src="images/cog-solid.svg" alt="settings"></a></li>
+    <li><a href="#"><img src="images/settings.svg" alt="settings"></a></li>
   </ul>
 </nav>
-
-check 
+</div>
 
 <div id="aboutUs">
-  <h2 id="AU_header">About Us</h2>
+  <h2 id="AU_header">ABOUT US</h2>
   <p id="hotinhere">It's getting hot in here.</p>
-  <img src="images/becca-tapert-391584-unsplash.jpg" alt="hot in here">
-</div>
+  <img src="images/couch-table.jpg" alt="hot in here">
+
 
   <div id="thermosecureInfo">
     <h3>ThermoSecure</h3>
-    <p>Fruitcake cotton candy bear claw croissant dessert candy canes croissant. Candy donut fruitcake pastry sweet. Jelly beans lemon drops carrot cake icing liquorice cupcake. Sweet chocolate chocolate biscuit marzipan halvah donut toffee jelly-o.</p>
-  </div>
+    <p>HouseCom<br>
+Your home is supposed to be where you feel safest.  With HomeCom’s 15 various products, you will never doubt the security of your home again.  
+<br><br>
+thermosecure<br>
+With brand new technologies, our newest security system, thermosecure, will ensure your home’s safety at all times.  Featuring individual room temperature settings, 4K home monitoring, and more.</p>
+    </div>
+    </div>
 
   <div id="rooms">
-    <h3>Rooms</h3>
-    <p id="Kitchen">Kitchen</p>
-    <p id="LRoom">Livin Room</p>
-    <p id="DRoom">Dining Room</p>
-    <p id="Entertainment">Entertainment</p>
-    <p id="Bedroom">Bedroom</p>
+    <h3>ROOMS</h3>
+    <p id="Kitchen">Kitchen</p><img src="images/kitchen-island.jpg" alt="kitchen">
+
+      <div id="kitchenOpen">
+        <p>Heat On</p>
+        <p>22.3 &deg;C</p>
+      </div>
+
+    <p id="LRoom">Livin Room</p><img src="images/living-room-modern.jpg" alt="living">
+    <p id="DRoom">Dining Room</p><img src="images/dining-room.jpg" alt="dining">
+    <p id="Entertainment">Entertainment</p><img src="images/tv-remote.jpg" alt="Entertainment">
+    <p id="Bedroom">Bedroom</p><img src="images/bedroom.jpg" alt="bedroom">
   </div>
 
   <div id="HSecurity">
     <h3>Home Security</h3>
+
+    <div class="Security">
     <input id="FDoor" type="checkbox" value="FDoor">
     <label for="FDoor">Front Door</label>
+    </div>
 
+    <div class="Security">
     <input id="BDoor" type="checkbox" value="BDoor">
     <label for="BDoor">Back Door</label>
-
+  </div>
+  <div class="Security">
     <input id="DBell" type="checkbox" value="DBell">
     <label for="DBell">Doorbell</label>
-
+  </div>
+  <div class="Security">
     <input id="Eside" type="checkbox" value="Eside">
     <label for="Eside">East Side</label>
-
+  </div>
+  <div class="Security">
     <input id="Wside" type="checkbox" value="Wside">
     <label for="Wside">West Side</label>
-
+  </div>
+  <div class="Security">
     <input id="BYard" type="checkbox" value="BYard">
     <label for="BYard">Backyard</label>
   </div>
+</div>
 
 <script src="js/main.js"></script>
 </body>
