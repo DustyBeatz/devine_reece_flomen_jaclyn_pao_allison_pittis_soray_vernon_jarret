@@ -72,6 +72,13 @@ nav ul
   margin: 0 auto;
 }
 
+#aboutUs img
+{
+  width: 388px;
+  height: 200px;
+  object-fit: cover;
+}
+
 #thermosecureInfo
 {
   background-color: white;
