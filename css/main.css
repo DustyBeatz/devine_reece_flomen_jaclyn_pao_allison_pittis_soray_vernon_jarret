@@ -1,12 +1,13 @@
 body {
     background-color: #424242;
     color: white;
-    font-family: Optima, "Helvetica Light", sans-serif;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
   }
 
 p
 {
-  font-size: 60px;
+  font-size: 20px;
 }
 
 .hidden
@@ -54,7 +55,37 @@ nav ul
   margin-top: 20px;
 }
 
+#tempNumber
+{
+  font-size: 60px;
+}
+
 #temp img
 {
   width: 60px;
+}
+
+#AU_header
+{
+  background-color: #424242;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+#thermosecureInfo
+{
+  background-color: white;
+  color: #424242;
+  padding: 50px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+
+}
+
+#hotinhere
+{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-style: oblique;
 }
