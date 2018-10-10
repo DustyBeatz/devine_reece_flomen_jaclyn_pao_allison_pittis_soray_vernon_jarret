@@ -9,9 +9,7 @@
 
 function changeTempHot() {
   console.log();
-  
-
+  temp.value.innerHTML = (i=20, i++);
 }
-
 
   hot.addEventListener("click", changeTempHot, false);
