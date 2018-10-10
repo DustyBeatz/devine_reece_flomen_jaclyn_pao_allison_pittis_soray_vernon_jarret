@@ -6,8 +6,8 @@
   var cold = document.querySelector("#cold");
 	var temp = document.getElementById('tempNumber');
 
-function changeTempHot(evt) {
-  console.log(evt);
+function changeTempHot() {
+  console.log();
 	for(var i=20; i<temp.value; i++){
 		hot[i].addEventListener("click", changeTempHot, false);
 	}
