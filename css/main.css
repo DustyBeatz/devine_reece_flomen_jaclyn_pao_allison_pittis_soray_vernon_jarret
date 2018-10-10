@@ -68,8 +68,15 @@ nav ul
 #AU_header
 {
   background-color: #424242;
-  padding: 50px;
-  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+#aboutUs img
+{
+  width: 388px;
+  height: 100px;
+  object-fit: cover;
 }
 
 #thermosecureInfo
@@ -85,7 +92,8 @@ nav ul
 #hotinhere
 {
   width: 100%;
-  margin: 0 auto;
   text-align: center;
   font-style: oblique;
+  position: absolute;
+  padding-top: 25px;
 }
