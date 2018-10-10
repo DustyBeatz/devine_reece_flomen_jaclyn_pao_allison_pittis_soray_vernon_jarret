@@ -1,5 +1,7 @@
 /*MOBILE*/
 
+@media screen and (min-width: 400px) {
+
 body {
     background-color: #424242;
     color: white;
@@ -112,7 +114,7 @@ nav
 
 }
 
-#hotinhere
+#hotinhereMobile
 {
   width: 100%;
   margin: 0 auto;
@@ -122,10 +124,56 @@ nav
   padding-top: 40px;
 }
 
+#thermoAboutWeb
+{
+  display: none;
+}
 
+#hotinhereWeb
+{
+  display: none;
+}
+
+.productMobile
+{
+  width: 100%;
+  height: 100%;
+  float: left;
+  margin: 0 auto;
+}
+
+}
 /*WEB*/
 
 @media screen and (min-width: 1279px) {
+  #thermoAboutWeb
+  {
+    display: inline-block;
+    background: #FFF;
+  }
+
+  #aboutUsWeb
+  {
+    width: 50%;
+    float: right;
+  }
+
+  #aboutUsWeb h2
+  {
+    text-align: center;
+    font-size: 2em;
+  }
+
+  #aboutUsWeb p
+  {
+    padding: 50px;
+  }
+
+  #aboutUsWeb h4
+  {
+    font-size: 1.5em;
+  }
+  
   body
   {
     background-color: #424242;
@@ -143,7 +191,7 @@ nav
 
 #rooms img
 {
-  width: 388px;
+  width: 100%;
   height: 100px;
   object-fit: cover;
 }
@@ -244,6 +292,65 @@ display: block;
   margin-left: 30px;
 }
 
+#webNav 
+{
+  display: inline-block;
+  
+}
+
+#webNav ul li 
+{
+  display: block;
+  text-decoration: none;
+  float: left;
+  text-align: center;
+  padding: 50px;
+  /*color: #4d4d4d;*/
+  position: relative;
+  background-color: #FFF;
+  margin: 0 auto;
+  color: #4d4d4d;
+}
+
+#hotinhereWeb
+{
+  width: 100%;
+  float: left;
+}
+
+#hotinhereWebImg
+{
+  max-width: 100%;
+
+}
+
+#hotinhereMobile
+{
+  display: hidden;
+}
+
+.product
+{
+  width: 50%;
+}
+
+#productDesc
+{
+  width: 40%;
+  float: right;
+  padding: 60px;
+  font-family: Helvetica, sans-serif;
+  font-weight: light;
+  text-align: legt;
+  color: #4d4d4d;
+  background-color: #FFFFFF;
+  display: inline-block;
+  height: auto;
+}
+
+
+
+}
 
 @media screen and (min-width: 400px) {
 
@@ -273,6 +380,12 @@ display: block;
   {
     width: 100px;
   }
+
+  #webNav
+  {
+    display: none;
+  }
+
 }
 
 @media screen and (min-width:700px) and (max-width: 1015px) {
@@ -292,6 +405,12 @@ display: block;
 
   }
 
+  #webNav
+  {
+    display: none;
+  }
+
+
 }
 
 
@@ -300,6 +419,7 @@ display: block;
   #headerIMG
   {
     display: block;
+    height: 100%;
   }
     #mainNav
   {
@@ -314,6 +434,11 @@ display: block;
 
   }
 
+  #webNav
+  {
+    display: block;
+  }
+
   #rooms
   {
     clear: both;
@@ -324,7 +449,7 @@ display: block;
     padding-top: 0px;
   }
 
-  #hotinhere
+  #hotinhereMobile
   {
     text-align: left;
     padding-left: 30px;
@@ -344,4 +469,11 @@ display: block;
     margin-top: 20px;
   }
 
+#aboutUs
+{
+  display: none;
 }
+
+}
+
+
