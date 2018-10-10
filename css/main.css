@@ -98,3 +98,16 @@ nav ul
   position: absolute;
   padding-top: 25px;
 }
+
+#HSecurity input
+{
+  display: block;
+}
+
+#rooms
+{
+  background-color: #424242;
+  text-align: center;
+  font-size: 30px;
+  padding: 70px;
+}
