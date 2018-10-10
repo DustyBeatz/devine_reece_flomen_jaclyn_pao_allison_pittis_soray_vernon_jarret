@@ -9,10 +9,21 @@ p
   font-size: 60px;
 }
 
+.hidden
+{
+  display: none;
+}
+
+#logo
+{
+  width: 40px;
+  float: left;
+  clear: both;
+}
+
 nav ul li a img
 {
   width: 40px;
-  filter: brightness(0) invert(1);
 }
 
 nav ul li a
@@ -33,11 +44,17 @@ nav ul
 #time
 {
   text-align: center;
+  margin-bottom: 30px;
 }
 
 #temp
 {
   text-align: center;
-  margin-bottom: 30px;
-  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+#temp img
+{
+  width: 60px;
 }
