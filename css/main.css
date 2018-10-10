@@ -43,6 +43,15 @@ nav ul
   text-align: center;
 }
 
+nav
+{
+  position: sticky;
+  height: 60px;
+  top: 0;
+  padding-bottom: 10px;
+  background-color: #424242;
+}
+
 #time
 {
   text-align: center;
@@ -70,8 +79,18 @@ nav ul
 #AU_header
 {
   background-color: #424242;
-  padding: 50px;
-  margin: 0 auto;
+
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#aboutUs img
+{
+  width: 388px;
+  height: 100px;
+  object-fit: cover;
 }
 
 #thermosecureInfo
@@ -100,4 +119,63 @@ nav ul
   {
     background-color: #424242;
   }
+}
+
+#rooms h3
+{
+  background-color: #424242;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#rooms img
+{
+  width: 388px;
+  height: 100px;
+  object-fit: cover;
+}
+
+#rooms p
+{
+  position: absolute;
+  font-weight: bold;
+  padding-left: 20px;
+  text-shadow: 2px 2px 10px black;
+}
+
+#kitchenOpen
+{
+  height: 100px;
+  display: none;
+}
+
+#kitchenOpen p
+{
+  position: static;
+}
+
+#HSecurity h3
+{
+  background-color: #424242;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#HSecurity input
+{
+  display: inline;
+}
+
+.Security
+{
+  color: #424242;
+  background-color: white;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 20px;
 }
