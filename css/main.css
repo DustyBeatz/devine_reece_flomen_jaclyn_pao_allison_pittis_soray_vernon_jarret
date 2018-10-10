@@ -70,7 +70,8 @@ nav ul
   background-color: #424242;
   text-align: center;
   font-size: 30px;
-  padding: 70px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 #aboutUs img
@@ -104,7 +105,8 @@ nav ul
   background-color: #424242;
   text-align: center;
   font-size: 30px;
-  padding: 70px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 #rooms img
@@ -112,7 +114,6 @@ nav ul
   width: 388px;
   height: 100px;
   object-fit: cover;
-  filter: grayscale(0.5);
 }
 
 #rooms p
@@ -120,6 +121,18 @@ nav ul
   position: absolute;
   font-weight: bold;
   padding-left: 20px;
+  text-shadow: 2px 2px 10px black;
+}
+
+#kitchenOpen
+{
+  height: 100px;
+  display: none;
+}
+
+#kitchenOpen p
+{
+  position: static;
 }
 
 #HSecurity h3
@@ -127,7 +140,8 @@ nav ul
   background-color: #424242;
   text-align: center;
   font-size: 30px;
-  padding: 70px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 #HSecurity input

@@ -1,1 +1,12 @@
-<svg aria-hidden="true" data-prefix="fas" data-icon="unlock-alt" class="svg-inline--fa fa-unlock-alt fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 256H152V152.9c0-39.6 31.7-72.5 71.3-72.9 40-.4 72.7 32.1 72.7 72v16c0 13.3 10.7 24 24 24h32c13.3 0 24-10.7 24-24v-16C376 68 307.5-.3 223.5 0 139.5.3 72 69.5 72 153.5V256H48c-26.5 0-48 21.5-48 48v160c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zM264 408c0 22.1-17.9 40-40 40s-40-17.9-40-40v-48c0-22.1 17.9-40 40-40s40 17.9 40 40v48z"></path></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-81 141 448 512" style="enable-background:new -81 141 448 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M319,397H71V293.9c0-39.6,31.7-72.5,71.3-72.9c40-0.4,72.7,32.1,72.7,72v16c0,13.3,10.7,24,24,24h32
+	c13.3,0,24-10.7,24-24v-16c0-84-68.5-152.3-152.5-152S-9,210.5-9,294.5V397h-24c-26.5,0-48,21.5-48,48v160c0,26.5,21.5,48,48,48h352
+	c26.5,0,48-21.5,48-48V445C367,418.5,345.5,397,319,397z M183,549c0,22.1-17.9,40-40,40s-40-17.9-40-40v-48c0-22.1,17.9-40,40-40
+	s40,17.9,40,40V549z"/>
+</svg>
