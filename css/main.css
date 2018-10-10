@@ -1,3 +1,5 @@
+/*MOBILE*/
+
 body {
     background-color: #424242;
     color: white;
@@ -87,6 +89,7 @@ nav
 #AU_header
 {
   background-color: #424242;
+
   text-align: center;
   font-size: 30px;
   padding-top: 50px;
@@ -113,10 +116,19 @@ nav
 #hotinhere
 {
   width: 100%;
+  margin: 0 auto;
   text-align: center;
   font-style: oblique;
-  position: absolute;
-  padding-top: 25px;
+}
+
+
+/*WEB*/
+
+@media screen and (min-width: 1279px) {
+  body
+  {
+    background-color: #424242;
+  }
 }
 
 #rooms h3
