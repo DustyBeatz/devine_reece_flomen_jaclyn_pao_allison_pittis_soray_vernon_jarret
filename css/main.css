@@ -15,10 +15,20 @@ p
   display: none;
 }
 
+#headerIMG
+{
+  display: none;
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+
 #logo
 {
-  width: 100px;
+  width: 150px;
   float: left;
+  position: absolute;
+  background-color: (0, 0, 0, 0.4);
 }
 
 nav ul li a img
@@ -168,6 +178,64 @@ nav
   font-size: 20px;
 }
 
+#statistics h1 h3
+{
+  font-style: lighter;
+}
+
+#statistics img
+{
+  width: 20px;
+}
+
+#alexa img
+{
+  width: 20px;
+  display: inline;
+}
+
+#alexa
+{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.check
+{
+  padding-left: 10px;
+}
+
+#days li a img
+{
+  width: 20px;
+  filter: brightness(0) invert(1);
+}
+
+#forecast ul li
+{
+  display: inline-block;
+  padding-right: 10px;
+  text-align: center;
+}
+
+#days
+{
+  list-style: none;
+
+}
+
+
+#days li a img
+{
+display: block;
+}
+
+#moreInfo
+{
+  margin-left: 30px;
+}
+
+
 @media screen and (min-width: 400px) {
 
   #aboutUs img
@@ -186,7 +254,19 @@ nav
 
 }
 
+@media screen and (min-width:400px) and (max-width: 700px) {
+  #logo
+  {
+    width: 100px;
+  }
+}
+
 @media screen and (min-width:700px) and (max-width: 1015px) {
+  #headerIMG
+  {
+    display: block;
+  }
+
   #mainNav
   {
     width: 100%;
@@ -203,7 +283,11 @@ nav
 
 @media screen and (min-width: 1015px) {
 
-  #mainNav
+  #headerIMG
+  {
+    display: block;
+  }
+    #mainNav
   {
     width: 40%;
     float: left;
@@ -231,4 +315,19 @@ nav
     text-align: left;
     padding-left: 30px;
   }
+
+  #HSecurity
+  {
+    width: 49%;
+    float: left;
+  }
+
+  #moreInfo
+  {
+    width: 49%;
+    float: right;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+
 }
