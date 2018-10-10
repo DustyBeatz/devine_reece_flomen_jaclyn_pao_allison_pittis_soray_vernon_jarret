@@ -24,18 +24,18 @@
 
 <nav id="mainNav">
   <ul>
-    <li><a href="#"><img src="images/book-reader-solid.svg" alt="book"></a></li>
-    <li><a href="#"><img src="images/users-solid.svg" alt="members"></a></li>
+    <li><a href="#"><img src="images/about-us.svg" alt="book"></a></li>
+    <li><a href="#"><img src="images/unlock-alt-solid.svg" alt="members"></a></li>
     <li><a href="#"><img src="images/no-text.svg" alt="home"></a></li>
     <li><a href="#"><img src="images/home-solid.svg" alt="home2"></a></li>
-    <li><a href="#"><img src="images/cog-solid.svg" alt="settings"></a></li>
+    <li><a href="#"><img src="images/settings.svg" alt="settings"></a></li>
   </ul>
 </nav>
 
 <div id="aboutUs">
   <h2 id="AU_header">ABOUT US</h2>
   <p id="hotinhere">It's getting hot in here.</p>
-  <img src="images/becca-tapert-391584-unsplash.jpg" alt="hot in here">
+  <img src="images/couch-table.jpg" alt="hot in here">
 </div>
 
   <div id="thermosecureInfo">
@@ -46,6 +46,12 @@
   <div id="rooms">
     <h3>ROOMS</h3>
     <p id="Kitchen">Kitchen</p><img src="images/kitchen-island.jpg" alt="kitchen">
+
+      <div id="kitchenOpen">
+        <p>Heat On</p>
+        <p>22.3 &deg;C</p>
+      </div>
+
     <p id="LRoom">Livin Room</p><img src="images/living-room-modern.jpg" alt="living">
     <p id="DRoom">Dining Room</p><img src="images/dining-room.jpg" alt="dining">
     <p id="Entertainment">Entertainment</p><img src="images/tv-remote.jpg" alt="Entertainment">
@@ -54,24 +60,33 @@
 
   <div id="HSecurity">
     <h3>Home Security</h3>
+
+    <div class="Security">
     <input id="FDoor" type="checkbox" value="FDoor">
     <label for="FDoor">Front Door</label>
+    </div>
 
+    <div class="Security">
     <input id="BDoor" type="checkbox" value="BDoor">
     <label for="BDoor">Back Door</label>
-
+  </div>
+  <div class="Security">
     <input id="DBell" type="checkbox" value="DBell">
     <label for="DBell">Doorbell</label>
-
+  </div>
+  <div class="Security">
     <input id="Eside" type="checkbox" value="Eside">
     <label for="Eside">East Side</label>
-
+  </div>
+  <div class="Security">
     <input id="Wside" type="checkbox" value="Wside">
     <label for="Wside">West Side</label>
-
+  </div>
+  <div class="Security" id="by">
     <input id="BYard" type="checkbox" value="BYard">
     <label for="BYard">Backyard</label>
   </div>
+</div>
 
 <script src="js/main.js"></script>
 </body>
