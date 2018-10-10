@@ -30,7 +30,6 @@ p
   width: 150px;
   float: left;
   position: absolute;
-  background-color: (0, 0, 0, 0.4);
 }
 
 nav ul li a img
@@ -190,10 +189,6 @@ nav
   font-size: 20px;
 }
 
-#statistics h1 h3
-{
-  font-style: lighter;
-}
 
 #statistics img
 {
