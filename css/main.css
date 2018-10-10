@@ -3,3 +3,41 @@ body {
     color: white;
     font-family: Optima, "Helvetica Light", sans-serif;
   }
+
+p
+{
+  font-size: 60px;
+}
+
+nav ul li a img
+{
+  width: 40px;
+  filter: brightness(0) invert(1);
+}
+
+nav ul li a
+{
+  margin-right: 20px;
+}
+
+nav ul li
+{
+  display: inline;
+}
+
+nav ul
+{
+  text-align: center;
+}
+
+#time
+{
+  text-align: center;
+}
+
+#temp
+{
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
