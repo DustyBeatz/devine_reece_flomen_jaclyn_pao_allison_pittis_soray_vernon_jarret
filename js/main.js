@@ -4,14 +4,21 @@
 
   var hot = document.getElementById('hot');
   var cold = document.querySelector("#cold");
+	var temp = document.getElementById('tempNumber');
 
-
-function changeTempHot() {
-  console.log();
-  document.querySelector('#tempNumber').innerHTML = (i=20, i++);
+function changeTempHot(evt) {
+  console.log(evt);
+	for(var i=20; i<temp.value; i++){
+		hot[i].addEventListener("click", changeTempHot, false);
+	}
 }
 
-  hot.addEventListener("click", changeTempHot, false);
+function changeTempCold(evt) {
+  console.log(evt);
+	for(var i=20; i<temp.value; i--){
+		cold[i].addEventListener("click", changeTempCold, false);
+	}
+}
 
 
 	var kitchen = document.getElementById('Kitchen');
